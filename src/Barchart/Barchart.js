@@ -17,8 +17,8 @@ const Barchart = (props) => {
         <button className="btn btn-primary" onClick={props.onLogoutHandler}>Logout</button>
             <Chart
                 type='bar'
-                min-width={425}
-                min-height={425}
+                width={1366}
+                height={580}
                 series={[
                     { data: currData }
                 ]}
